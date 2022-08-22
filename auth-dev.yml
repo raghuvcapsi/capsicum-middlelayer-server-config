@@ -10,18 +10,18 @@ spring:
     oauth2:
       resource-server:
         jwt:
-          issuer-uri: https://auth.capsifi.com/realms/capsifi_dev_tenant
-          jwk-set-uri: https://auth.capsifi.com/realms/capsifi_dev_tenant/protocol/openid-connect/certs
+          issuer-uri: https://auth1.capsifi.com/realms/capsifi_dev_tenant
+          jwk-set-uri: https://auth1.capsifi.com/realms/capsifi_dev_tenant/protocol/openid-connect/certs
 
 keycloak:
-  auth-server-url: https://auth.capsifi.com/
+  auth-server-url: https://auth1.capsifi.com/
   realm: capsifi_dev_tenant
   bearer-only: 'true'
   public-client: 'true'
   use-resource-role-mappings: 'true'
   ssl-required: external
   resource: capsifi_dev_client
-  client-key-password: 0vdmJnXMKsQ3jStoHXVv64oJ6PDyfaSM
+  client-key-password: iQENy3rYFu5F0kjEzN4xmXPAUFyXAy3h
 
 keycloak-config:  
   master-realm: master
