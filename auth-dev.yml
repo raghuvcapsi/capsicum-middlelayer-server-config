@@ -27,7 +27,7 @@ keycloak-config:
   master-realm: master
   admin-client: admin-cli
   user-name: ajain
-  user-password: 3zEFAH&6bKJe
+  user-password: ?f$nCq8R!jny
 
 mail-config:  
   host: smtp.gmail.com
