@@ -4,6 +4,9 @@ server:
 spring:
   application:
     name: auth
+  profiles:
+    include:
+    - keycloak-config  
   jackson:
     default-property-inclusion: NON_NULL
   security:
