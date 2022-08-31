@@ -1,0 +1,9 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: dynamic-query-service
+  jackson:
+    default-property-inclusion: NON_NULL
+  
