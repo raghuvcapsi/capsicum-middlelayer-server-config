@@ -6,10 +6,13 @@ spring:
     name: auth
   jackson:
     default-property-inclusion: NON_NULL
-  security:
-    oauth2:
-      resource-server:
-        jwt:
-          issuer-uri: https://auth1.capsifi.com/realms/capsifi_dev_tenant
-          jwk-set-uri: https://auth1.capsifi.com/realms/capsifi_dev_tenant/protocol/openid-connect/certs
+  profiles:
+    active: local,prod
+
+mail-config:  
+  host: smtp.gmail.com
+  port: 587
+  mailid: sss@ssism.org
+  password: Admin@12345
+  reset-password-mail-body: Hi %s, %nThis is your new password %s %nPlease use this password to login.%nTeam%nCapsifi
 
