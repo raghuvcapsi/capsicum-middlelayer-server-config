@@ -6,8 +6,6 @@ spring:
     name: auth
   jackson:
     default-property-inclusion: NON_NULL
-  profiles:
-    active: local,prod
 
 mail-config:  
   host: smtp.gmail.com
