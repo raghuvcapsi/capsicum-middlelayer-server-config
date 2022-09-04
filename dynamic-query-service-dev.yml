@@ -12,6 +12,6 @@ spring:
     active: local,azdev,prod
 timezone: UTC
 server:
-  port: 8090Updated
+  port: 8090
   error:
     include-stacktrace: never
