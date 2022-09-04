@@ -1,9 +1,17 @@
-server:
-  port: 8090
-
+logging:
+  level:
+    org:
+      springframework: INFO
+    com:
+      capsicum: DEBUG
+    root: ERROR
 spring:
   application:
     name: dynamic-query-service
-  jackson:
-    default-property-inclusion: NON_NULL
-  
+  profiles:
+    active: local,azdev,prod
+timezone: UTC
+server:
+  port: 8090Updated
+  error:
+    include-stacktrace: never
