@@ -17,7 +17,7 @@ mail-config:
 logging:
   level:
     org:
-      springframework: INFO
+      springframework: ALL
     com:
-      capsicum: DEBUG
-    root: INFO  
+      capsicum: ALL
+    root: ALL  
