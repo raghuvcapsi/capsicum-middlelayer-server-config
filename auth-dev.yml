@@ -13,11 +13,3 @@ mail-config:
   mailid: sss@ssism.org
   password: Admin@12345
   reset-password-mail-body: Hi %s, %nThis is your new password %s %nPlease use this password to login.%nTeam%nCapsifi
-  
-logging:
-  level:
-    org:
-      springframework: ALL
-    com:
-      capsicum: ALL
-    root: ALL  
