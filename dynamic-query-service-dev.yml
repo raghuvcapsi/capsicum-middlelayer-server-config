@@ -8,8 +8,7 @@ logging:
 spring:
   application:
     name: dynamic-query-service
-  profiles:
-    active: local,azdev,prod
+
 timezone: UTC
 server:
   port: 8090
