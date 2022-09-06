@@ -6,6 +6,10 @@ spring:
     name: auth
   jackson:
     default-property-inclusion: NON_NULL
+app:
+  logging:
+    enabled: 'false'
+
 
 mail-config:  
   host: smtp.gmail.com
