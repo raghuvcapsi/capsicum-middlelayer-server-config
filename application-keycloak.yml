@@ -43,3 +43,4 @@ management:
           - env
           - health
           - info
+          - refresh
